@@ -1,0 +1,79 @@
+###
+GET http://localhost:8000/data
+Accept: application/json
+
+###
+GET http://localhost:8000/data/121
+Accept: application/xml
+
+###
+POST http://localhost:8000/submit
+Content-Type: application/json
+
+{
+    "name":"Masoom",
+    "age":23,
+    "marks":100,
+    "subjects":["maths","science","english"]
+}
+
+###
+GET http://localhost:8000/submit
+Accept: application/json
+
+
+###
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+   "age":0
+}
+
+###
+POST http://localhost:8000/auth/signup
+Content-Type: application/json
+
+{
+    "username":"masoom129",
+    "password":"masoom129",
+    "email":"masoom129.kcis@gmail.com"
+}
+
+###
+POST http://localhost:8000/auth/login
+Content-Type: application/json
+
+{
+    "email":"masoom126.kcis@gmail.com",
+    "password":"masoom126"
+}
+
+###
+GET http://localhost:8000/orders/allorders
+Accept: application/json
+
+###
+POST http://localhost:8000/auth/delete/jane_smith
+Content-Type: application/json
+
+###
+POST http://localhost:8000/auth/getallusers
+Content-Type: application/json
+
+
+###
+POST http://localhost:8000/auth/update/admin
+Content-Type: application/json
+
+{
+  "newUsername": "newAdmin",
+  "newEmail": "newEmail",
+  "newPassword": "newPassword"
+}
+
+
+###
+POST http://localhost:8000/auth/dashboard
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc29vbTEyNi5rY2lzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFzb29tMTI2IiwiaWF0IjoxNzQ5ODA1MjQxLCJleHAiOjE3NDk4MDg4NDF9.aOKLwq4SqEdA7-wswlfdJjJO-C8HKrx9FIXUuZX7kzs

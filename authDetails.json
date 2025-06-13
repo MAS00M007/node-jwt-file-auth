@@ -1,0 +1,57 @@
+[
+  {
+    "username": "masoom",
+    "email": "masoom.kcis@gmail.com",
+    "password": "masoom"
+  },
+  {
+    "username": "masoom123",
+    "email": "masoom123.kcis@gmail.com",
+    "password": "masoom123"
+  },
+  {
+    "username": "john_doe",
+    "email": "john@example.com",
+    "password": "john123"
+  },
+  {
+    "username": "test_user",
+    "email": "test@example.com",
+    "password": "test123"
+  },
+  {
+    "username": "newAdmin",
+    "email": "newEmail",
+    "password": "newPassword"
+  },
+  {
+    "username": "masoom124",
+    "email": "masoom124.kcis@gmail.com",
+    "password": "masoom124"
+  },
+  {
+    "username": "masoom125",
+    "email": "masoom125.kcis@gmail.com",
+    "password": "$2b$10$4w0vEgye9tQ1okb0ZKBlzeBO.cjuivCPGddw.duoNtMyNkecgbe2G"
+  },
+  {
+    "username": "masoom126",
+    "email": "masoom126.kcis@gmail.com",
+    "password": "$2b$10$z1O5G35twswsVQ42F.Bi8ubo7vnu2xkUUNBYU3JtKmHYh9UiCvd/6"
+  },
+  {
+    "username": "masoom127",
+    "email": "masoom127.kcis@gmail.com",
+    "password": "$2b$10$CZxSXkHDCLCtvEopsq9viOP1Kgxh4Lbfb3EB9AcO8KImZsOH5j5t6"
+  },
+  {
+    "username": "masoom128",
+    "email": "masoom128.kcis@gmail.com",
+    "password": "$2b$10$2c0LjNiOwJuriIqIh5Ww5.StsFG/tUasVrckVVY.W6XzVc9HhHOuG"
+  },
+  {
+    "username": "masoom129",
+    "email": "masoom129.kcis@gmail.com",
+    "password": "$2b$10$4jzOTYLa.mjxr1ZMCVVbl.8etQu1ZgUsapx2IZUDpAaurutyIamda"
+  }
+]
